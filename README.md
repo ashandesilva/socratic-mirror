@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, Create and Update the .env.local file with the following variables:
+
+```bash
+HUME_API_KEY=your_hume_api_key
+HUME_SECRET_KEY=your_hume_secret_key
+HUME_CONFIG_ID=your_hume_config_id
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
